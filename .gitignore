@@ -1,0 +1,17 @@
+# pyinstaller build
+build/
+dist/
+
+# Py file
+__pycache__/
+*.pyc
+*.pyo
+
+# System and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Log
+*.log
