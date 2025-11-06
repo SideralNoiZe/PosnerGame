@@ -4,7 +4,7 @@ import time
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
-def display_message(screen, text, position, font_size=70, color=BLACK, centered=True):
+def display_message(screen, text, position, font_size=60, color=BLACK, centered=True):
     font = pygame.font.Font(None, font_size)
     message = font.render(text, True, color)
     if centered:
