@@ -18,7 +18,7 @@ def save_leaderboard(leaderboard):
         json.dump(leaderboard, f)
 
 def update_leaderboard(name, rt, errors):
-    penalty = 0.1
+    penalty = 0.05
     adjusted = rt + errors * penalty
     leaderboard = load_leaderboard()
     leaderboard.append({'name': name, 'overall_rt': adjusted, 'errors': errors})

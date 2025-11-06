@@ -11,7 +11,7 @@ def get_participant_name(screen, screen_width, screen_height):
     big_font = pygame.font.Font(None,100)
     underscore_spacing = 100
     underscore_width = 80
-    underscore_thickness = 5
+    underscore_thickness = 6
 
     leaderboard = _load_leaderboard()
 
