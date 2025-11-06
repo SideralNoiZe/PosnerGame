@@ -37,7 +37,7 @@ if main_menu(screen, screen_width, screen_height, assets["title_image"]):
     total = len(valid_reaction_times)+len(invalid_reaction_times)
     avg_all = (sum(valid_reaction_times)+sum(invalid_reaction_times))/total if total else 0
 
-    penalty = 0.1
+    penalty = 0.05
     adjusted = avg_all + error_count*penalty
     validity = avg_invalid - avg_valid if valid_reaction_times and invalid_reaction_times else 0
 
